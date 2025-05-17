@@ -27,8 +27,17 @@ to re-enter the tmux session:
 tmux attach -t gensyn
 ```
 
+## 5. Kill the session
+- You can type `exit` to kill the session or enter below command to kill directly:
+
+
+```
+tmux kill-session -t gensyn
+```
+
 ### BONUS: See all tmux sessions
 
 ```
 tmux ls
 ```
+
