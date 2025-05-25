@@ -12,6 +12,11 @@ sudo apt install tmux -y
 ```bash
 tmux new -s gensyn
 ```
+
+```
+tmux new -s aztec
+```
+
 - This opens a new persistent terminal session named gensyn
 
 Now you can run your gensyn command to run your node.... !
